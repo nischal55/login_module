@@ -12,7 +12,7 @@ $(document).ready(function () {
         if (data == "login_success") {
           window.location.href = "../index.php";
         } else {
-          $("#message").html("Login Fail");
+          $("#message").html('<div class="alert alert-danger">Invalid Username or Password !! </div>');
         }
       }
     );
